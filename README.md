@@ -1,1 +1,0 @@
-# aryaruchi.github.io
