@@ -1,17 +1,81 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230A0814'/><text y='68' x='50' text-anchor='middle' font-size='55' font-family='sans-serif' font-weight='700' fill='%23FF6B6B'>R</text></svg>" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <script type="module" crossorigin src="/assets/index-DzpSfzFM.js"></script>
+  <meta name="theme-color" content="#10110f" />
+  <meta name="description" content="Ruchi Arya is a MERN stack developer building thoughtful, responsive web applications for real people and businesses." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%2310110f'/><text y='70' x='50' text-anchor='middle' font-size='62' font-family='sans-serif' font-weight='700' fill='%2383dcff'>R</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/portfolio.css" />
+  <title>Ruchi Arya — MERN Stack Developer</title>
 </head>
-
 <body>
-  <div id="root"></div>
-</body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ruchi Arya home"><span class="brand-mark">R</span><span>ruchi<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a>
+      <a class="nav-contact" href="#contact">Let’s talk <span>↗</span></a>
+    </nav>
+  </header>
 
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> MERN STACK DEVELOPER <span class="eyebrow-line"></span> NOIDA, INDIA</div>
+        <h1>I build things<br />for the <span class="highlight">web.</span></h1>
+        <p class="hero-intro">I’m Ruchi — a full-stack developer turning thoughtful ideas into reliable, responsive web experiences.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↘</span></a><a class="text-link" href="mailto:ruchiarya4215@gmail.com">Get in touch <span>↗</span></a></div>
+        <div class="hero-socials"><a href="https://github.com/aryaruchi" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://linkedin.com/in/ruchi789" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:ruchiarya4215@gmail.com">Email ↗</a></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative abstract code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="art-core"><span class="core-bracket">&lt;</span><span class="core-r">R</span><span class="core-bracket">/&gt;</span></div>
+        <span class="orbit-tag tag-react">React.js </span><span class="orbit-tag tag-node">Node.js <b>●</b></span><span class="orbit-tag tag-mongo">MongoDB <b>◉</b></span>
+        <span class="art-caption">BUILDING WITH<br />PURPOSE, EVERY DAY.</span>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE <span class="down-arrow">↓</span></span><span class="hero-location">Currently based in <strong>Noida, Uttar Pradesh</strong></span></div>
+    </section>
+
+    <section class="intro-strip"><div class="strip-inner"><span class="strip-label">A LITTLE ABOUT HOW I WORK</span><p>From the first sketch to the final <em>deploy</em>, I care about making the whole experience feel <em>right.</em></p></div></section>
+
+    <section class="content-section section-wrap" id="about">
+      <div class="section-heading"><span class="section-index">01 / ABOUT</span><h2>Developer by craft.<br /><span class="muted">Problem solver by nature.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy"><p class="lead">I’m a MERN stack developer with 1+ year of experience building and shipping full-stack web applications for real clients.</p><p>At World WebLogic, I work across the stack — shaping responsive interfaces in React, building secure APIs with Node and Express, and connecting everything to MongoDB. I enjoy turning complex requirements into clear, dependable experiences.</p><p>Good software is more than code that works. It should feel intuitive, load quickly, and be easy for the next person to understand.</p><a class="underlined-link" href="https://linkedin.com/in/ruchi789" target="_blank" rel="noreferrer">A little more about me <span>↗</span></a></div>
+        <div class="about-aside"><div class="stat-card"><span class="stat-number">01<span>+</span></span><span class="stat-label">YEAR BUILDING<br />FOR THE WEB</span></div><div class="stat-card"><span class="stat-number">03</span><span class="stat-label">PROJECTS FROM<br />IDEA TO DEPLOY</span></div><div class="quote-card"><span class="quote-mark">“</span><p>Make it useful.<br />Make it clear.<br /><em>Make it last.</em></p><span class="quote-byline">MY APPROACH TO BUILDING</span></div></div>
+      </div>
+    </section>
+
+    <section class="content-section experience-section" id="experience"><div class="section-wrap">
+      <div class="section-heading"><span class="section-index">02 / EXPERIENCE</span><h2>Where I’ve<br /><span class="muted">made an impact.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-date">SEP 2025 — PRESENT</div><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-title"><div><h3>MERN Stack Developer</h3><p>World WebLogic Pvt Ltd <span>·</span> Noida</p></div><span class="current-pill"><i></i> CURRENT</span></div><ul><li>Build and maintain full-stack applications for clients and internal teams, including HRMS, company website, and e-commerce projects.</li><li>Develop secure REST APIs with Node.js and Express.js, MongoDB data models, JWT authentication, and role-based access.</li><li>Create responsive, reusable React interfaces styled with Tailwind CSS and bundled with Vite.</li><li>Collaborate through Git and GitHub across day-to-day development and delivery.</li></ul><div class="tag-row"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>REST APIs</span></div></div></article>
+        <article class="timeline-item"><div class="timeline-date">MAY 2025 — AUG 2025</div><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-title"><div><h3>MERN Stack Developer Intern</h3><p>World WebLogic Pvt Ltd <span>·</span> Noida</p></div><span class="past-pill">INTERNSHIP</span></div><p class="timeline-summary">Contributed to MERN stack features and responsive user interfaces as part of the development team. Converted to a full-time role based on performance and the quality of delivered projects.</p><div class="tag-row"><span>JavaScript</span><span>React</span><span>Responsive UI</span></div></div></article>
+      </div>
+    </div></section>
+
+    <section class="content-section section-wrap projects-section" id="projects">
+      <div class="section-heading project-heading"><div><span class="section-index">03 / SELECTED WORK</span><h2>Projects with<br /><span class="muted">purpose.</span></h2></div><span class="project-count">01 — 03</span></div>
+      <div class="project-list">
+        <article class="project-card project-featured"><div class="project-visual visual-hrms"><div class="window-top"><span></span><span></span><span></span><i>people / overview</i></div><div class="hrms-preview"><aside><b>◈</b><span></span><span></span><span></span><span></span></aside><div class="preview-main"><small>EMPLOYEE WORKSPACE</small><strong>People operations<span>.</span></strong><div class="mini-stats"><i><b>People</b><small>DIRECTORY</small></i><i><b>Time</b><small>ATTENDANCE</small></i><i><b>Leave</b><small>REQUESTS</small></i></div><div class="chart-line"><span></span></div></div></div><span class="visual-number">01</span></div><div class="project-info"><div class="project-meta"><span>HRMS · FULL STACK</span><span>CLIENT PROJECT</span></div><h3>Employee Management System</h3><p>A full-stack HRMS that brings employee records, attendance, leave requests, roles, and authentication into one clear workspace.</p><div class="project-bottom"><div class="tag-row"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div><a class="circle-link" href="https://wwlhrms.digitalwebguider.com/" target="_blank" rel="noreferrer" aria-label="View HRMS project">↗</a></div></div></article>
+        <article class="project-card"><div class="project-visual visual-company"><div class="company-window"><span>DW<span class="company-dot">.</span></span><div class="company-hero"><small>IDEAS INTO IMPACT</small><b>We make<br /><i>digital better.</i></b><span></span></div><div class="company-cards"><i></i><i></i><i></i></div></div><span class="visual-number">02</span></div><div class="project-info"><div class="project-meta"><span>COMPANY WEBSITE</span><span>CLIENT PROJECT</span></div><h3>Digital WebGuider</h3><p>A responsive company website that presents IT services through a clean visual system and reusable React components.</p><div class="project-bottom"><div class="tag-row"><span>React</span><span>Tailwind CSS</span><span>Vite</span></div><a class="circle-link" href="https://digitalwebguider.com/" target="_blank" rel="noreferrer" aria-label="View Digital WebGuider website">↗</a></div></div></article>
+        <article class="project-card"><div class="project-visual visual-shop"><div class="shop-window"><div class="shop-nav"><b>ATAL<span> OPTICAL</span></b><i>SHOP　 ABOUT　 ♡　 BAG</i></div><div class="shop-content"><small>SEE A NEW PERSPECTIVE</small><strong>Find your<br /><em>perfect frame.</em></strong><span class="shop-button">EXPLORE COLLECTION ↗</span></div><div class="glasses glasses-one"></div><div class="glasses glasses-two"></div></div><span class="visual-number">03</span></div><div class="project-info"><div class="project-meta"><span>E-COMMERCE</span><span>CLIENT PROJECT</span></div><h3>Atal Optical</h3><p>A live sunglasses storefront with a dynamic product catalog, shopping cart, and secure checkout experience.</p><div class="project-bottom"><div class="tag-row"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div><a class="circle-link" href="https://ataloptical.org/" target="_blank" rel="noreferrer" aria-label="View Atal Optical store">↗</a></div></div></article>
+
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills"><div class="section-wrap"><div class="section-heading"><span class="section-index">04 / TOOLKIT</span><h2>Tools I use to<br /><span class="muted">get it done.</span></h2></div><div class="skills-grid"><article class="skill-group"><span class="skill-number">01</span><h3>Frontend</h3><p>Interfaces that feel intuitive, adapt to every screen, and stay easy to maintain.</p><div class="skill-chips"><span>React.js</span><span>JavaScript ES6+</span><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span><span>Bootstrap</span><span>React Router</span><span>Vite</span></div></article><article class="skill-group"><span class="skill-number">02</span><h3>Backend</h3><p>Reliable APIs and secure application logic built for real-world workflows.</p><div class="skill-chips"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>JWT Auth</span><span>Role-based access</span></div></article><article class="skill-group"><span class="skill-number">03</span><h3>Data & tools</h3><p>Practical data modeling and collaborative development from local build to live site.</p><div class="skill-chips"><span>MongoDB</span><span>MS SQL Server</span><span>Git</span><span>GitHub</span><span>VS Code</span></div></article></div></div></section>
+
+    <section class="content-section section-wrap education-section" id="education"><div class="section-heading"><span class="section-index">05 / EDUCATION</span><h2>The foundations<br /><span class="muted">behind the work.</span></h2></div><div class="education-list"><article><span class="edu-year">2021 — 2024</span><div><h3>B.Tech in Computer Science</h3><p>Maharaja Agrasen College of Engineering and Technology, Amroha <span>· AKTU</span></p></div><span class="edu-mark">B.TECH</span></article><article><span class="edu-year">2017 — 2020</span><div><h3>Diploma in Electronics Engineering</h3><p>Mahamaya Polytechnic, Amroha <span>· BTEUP</span></p></div><span class="edu-mark">DIPLOMA</span></article><article><span class="edu-year">2015 — 2017</span><div><h3>Class XII & Class X</h3><p>UP Board · A.N.D.P. Inter College, Amroha</p></div><span class="edu-mark">UP BOARD</span></article></div><div class="extra-credentials"><div><p><b>Recognition</b>Converted from intern to full-time developer based on performance and project delivery.</p></div><div><span class="credential-icon">⌘</span><p><b>JavaScript Certification</b>KG-Coding · Jun 2024 · ES6+ concepts and problem-solving.</p></div><div><span class="credential-icon">⌁</span><p><b>CCC</b>Course on Computer Concepts · Computer fundamentals and essential software tools.</p></div></div></section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-inner"><span class="section-index">06 / WHAT’S NEXT</span><div class="contact-main"><div><h2>Have a good<br />one in <span>mind?</span></h2><p>I’d love to hear what you’re building. Let’s make something useful together.</p></div><a class="contact-button" href="mailto:ruchiarya4215@gmail.com"><span>Start a conversation</span><b>↗</b></a></div><div class="contact-details"><a href="mailto:ruchiarya4215@gmail.com">ruchiarya4215@gmail.com</a><a href="tel:+918923917689">+91 89239 17689</a><span>Noida, Uttar Pradesh, India</span></div></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">R</span><span>ruchi<span class="brand-dot">.</span></span></a><span>Designed & built by Ruchi Arya</span><span>© <span id="year"></span> ALL RIGHTS RESERVED</span><a class="back-top" href="#home">BACK TO TOP ↑</a></footer>
+  <script src="/assets/portfolio.js" defer></script>
+</body>
 </html>
